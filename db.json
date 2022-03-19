@@ -1,14 +1,176 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "dogs": [
+    { 
+      "id": 1, 
+      "pic": "https://www.zooplus.hu/magazin/wp-content/uploads/2020/01/Pembroke-Welsh-Corgi.jpeg",
+      "name": "Kormi",
+      "homePark": "Park 1",
+      "birthDay": "2020-01-01",
+      "gender": "girl",
+      "breed": "mixed",
+      "size": "M",
+      "about": "this is an about text about Kormi" 
+    },
+    { 
+      "id": 2, 
+      "pic": "https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg?w=1575",
+      "name": "Marcipán",
+      "homePark": "Park 1",
+      "birthDay": "2021-01-01",
+      "gender": "boy",
+      "breed": "german sheppard",
+      "size": "L",
+      "about": "this is an about text about Marcipán" 
+    },
+    { 
+      "id": 3, 
+      "pic": "https://i.insider.com/5484b33a6da8119577fbada9?width=800&format=jpeg&auto=webp",
+      "name": "Akszel",
+      "homePark": "Park 2",
+      "birthDay": "1990-01-01",
+      "gender": "boy",
+      "breed": "collie",
+      "size": "M",
+      "about": "this is an about text about Akszel" 
+    },
+    { 
+      "id": 4, 
+      "pic": "https://i.insider.com/5484b547eab8ea460cb17e27?width=800&format=jpeg&auto=webp",
+      "name": "Gyogyó",
+      "homePark": "Park 3",
+      "birthDay": "2010-01-01",
+      "gender": "boy",
+      "breed": "mixed",
+      "size": "S",
+      "about": "this is an about text about Gyogyó" 
+    },
+    { 
+      "id": 5, 
+      "pic": "https://i.insider.com/5484ecba69bedda54703ed52?width=800&format=jpeg&auto=webp",
+      "name": "Béla",
+      "homePark": "Park 1",
+      "birthDay": "2020-01-01",
+      "gender": "girl",
+      "breed": "mixed",
+      "size": "M",
+      "about": "this is an about text about Béla" 
+    },
+    { 
+      "id": 6, 
+      "pic": "https://www.zooplus.hu/magazin/wp-content/uploads/2020/01/Pembroke-Welsh-Corgi.jpeg",
+      "name": "István",
+      "homePark": "Park 1",
+      "birthDay": "2021-01-01",
+      "gender": "boy",
+      "breed": "german sheppard",
+      "size": "L",
+      "about": "this is an about text about István" 
+    },
+    { 
+      "id": 7, 
+      "pic": "https://i.insider.com/5484d0f46bb3f73b07626ca9?width=800&format=jpeg&auto=webp",
+      "name": "Zsoltom",
+      "homePark": "Park 2",
+      "birthDay": "1990-01-01",
+      "gender": "boy",
+      "breed": "collie",
+      "size": "M",
+      "about": "this is an about text about Zsoltom" 
+    },
+    { 
+      "id": 8, 
+      "pic": "https://www.zooplus.hu/magazin/wp-content/uploads/2020/01/Pembroke-Welsh-Corgi.jpeg",
+      "name": "Malvin",
+      "homePark": "Park 3",
+      "birthDay": "2010-01-01",
+      "gender": "boy",
+      "breed": "mixed",
+      "size": "S",
+      "about": "this is an about text about Malvin" 
+    },
+    { 
+      "id": 9, 
+      "pic": "https://i.insider.com/5484e527ecad04de4324638b?width=800&format=jpeg&auto=webp",
+      "name": "Gyereide",
+      "homePark": "Park 1",
+      "birthDay": "2020-01-01",
+      "gender": "girl",
+      "breed": "mixed",
+      "size": "M",
+      "about": "this is an about text about Gyereide" 
+    },
+    { 
+      "id": 10, 
+      "pic": "https://i.insider.com/5484d8fa69bedd616903ed62?width=800&format=jpeg&auto=webp",
+      "name": "Klári",
+      "homePark": "Park 4",
+      "birthDay": "2021-01-01",
+      "gender": "boy",
+      "breed": "german sheppard",
+      "size": "L",
+      "about": "this is an about text about Klári" 
+    },
+    { 
+      "id": 11, 
+      "pic": "https://www.zooplus.hu/magazin/wp-content/uploads/2020/01/Pembroke-Welsh-Corgi.jpeg",
+      "name": "Oszlop",
+      "homePark": "Park 5",
+      "birthDay": "1990-01-01",
+      "gender": "boy",
+      "breed": "collie",
+      "size": "M",
+      "about": "this is an about text about Oszlop" 
+    },
+    { 
+      "id": 12, 
+      "pic": "https://www.zooplus.hu/magazin/wp-content/uploads/2020/01/Pembroke-Welsh-Corgi.jpeg",
+      "name": "Marha",
+      "homePark": "Park 6",
+      "birthDay": "2010-01-01",
+      "gender": "boy",
+      "breed": "mixed",
+      "size": "S",
+      "about": "this is an about text about Marha" 
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id": 1,
+      "name": "Kovács István",
+      "email": "kovacs.istvan@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Végh Béla",
+      "email": "vegh.bela@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Kelemen Anna",
+      "email": "kelemen.anna@gmail.com"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "parks": [
+    {
+      "id": 1,
+      "name": "Búsuló juhász",
+      "pic": "",
+      "address": "",
+      "gps": ""
+    },
+    {
+      "id": 2,
+      "name": "Szabó Dezső szobor",
+      "pic": "",
+      "address": "",
+      "gps": ""
+    },
+    {
+      "id": 3,
+      "name": "Cerka-firka Játszótér",
+      "pic": "",
+      "address": "",
+      "gps": ""
+    }
+  ]
 }
